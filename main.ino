@@ -2,20 +2,20 @@
 
 // Pin definitions
 // Color sensor pins
-#define S0 7
+#define S0 4
 #define S1 5
-#define S2 11
-#define S3 12
-#define sensorOut 10
-#define OE_PIN 4  // Fixed syntax
+#define S2 6
+#define S3 7
+#define sensorOut 8
+#define OE_PIN 9  // Fixed syntax
 
 // Motor control pins
 #define IN1 A5
 #define IN2 A4
 #define IN3 A3
 #define IN4 A2
-#define ENA 3  // PWM speed control for motor A
-#define ENB 6  // PWM speed control for motor B
+#define ENA 3 // PWM speed control for motor A
+#define ENB 10  // PWM speed control for motor B
 
 // Servo pin
 #define SERVO_PIN 11
